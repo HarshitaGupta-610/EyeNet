@@ -17,6 +17,7 @@ while True:
         "range": random.randint(100, 500),
         "velocity": random.randint(200, 900),
         "signal_strength": round(random.uniform(70, 100), 2),
+        "packet_size": random.randint(128, 1024),
         "timestamp": time.time()
     }
 
