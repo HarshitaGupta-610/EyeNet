@@ -18,7 +18,14 @@ def initialize_csv():
                 "range",
                 "velocity",
                 "signal_strength",
-                "packet_size"
+                "packet_size",
+                "latency",
+                "packet_loss",
+                "throughput",
+                "packet_rate",
+                "network_health_score",
+                "signal_latency_ratio",
+                "status"
             ])
 
 
@@ -34,5 +41,12 @@ def log_packet(packet):
             packet["range"],
             packet["velocity"],
             packet["signal_strength"],
-            packet["packet_size"]
+            packet["packet_size"],
+            packet["latency"],
+            packet["packet_loss"],
+            packet["throughput"],
+            packet["packet_rate"],
+            packet["network_health_score"],
+            packet["signal_latency_ratio"],
+            packet["status"]
         ])
