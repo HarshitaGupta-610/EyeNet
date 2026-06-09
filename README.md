@@ -1,5 +1,4 @@
-# 🛡️ EyeNet – AI Powered Radar Threat Detection System
-
+# 🛡️ EyeNet – Intelligent Radar Communication System
 ## 📌 Project Overview
 
 EyeNet is an Artificial Intelligence based radar monitoring system designed to detect abnormal communication behavior and potential jamming attacks in radar networks.
